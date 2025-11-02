@@ -8,8 +8,7 @@ Built without libraries just hand written HTML, CSS and JS.
 
 ## Authors
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+[MotchHmmF](https://github.com/MotchHmmF)
 
 ## License
 
