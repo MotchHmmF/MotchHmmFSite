@@ -1,0 +1,8 @@
+:root {
+    --bulma-scheme-s: 50%;
+}
+
+.menu {
+    --bulma-menu-item-selected-h: 224deg;
+    --bulma-menu-label-font-size: 1em;
+}
