@@ -4,7 +4,8 @@ A light website to show my work.
 
 ## Description
 
-Built without libraries just hand written HTML, CSS and JS.
+Built with Bulma UI.
+Designed to show my work.
 
 ## Authors
 
@@ -15,3 +16,5 @@ Built without libraries just hand written HTML, CSS and JS.
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
+
+[Bulma UI](https://bulma.io/)
