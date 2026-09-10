@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Devlog Foundations made",
+    "date": "10/9/2026",
+    "description": "Currently just hard-coding the devlogs into the script file but plan to be able to load from external files shortly. This works well for temporary demo purposes",
+    "code": "function load_all_cards(data) {\n  const devlog = document.getElementById(\"devlog\");\n  devlog.innerHTML = data.map(render_card).join(\"\");\n}"
+  },
+  {
+    "title": "Some DEMO Data",
+    "date": "Text Date",
+    "description": "This exists here to check if the json mapping is functioning as intended %&<> <-- Did they render correctly?\nHow about a newline gotta use this ` symbol, also did that symbol even render then?",
+    "code": "function escapeHtml(value) {\n  return String(value)\n    .replaceAll(\"&\", \"&amp;\")\n    .replaceAll(\"<\", \"&lt;\")\n    .replaceAll(\">\", \"&gt;\")\n    .replaceAll('\"', \"&quot;\")\n    .replaceAll(\"'\", \"&#039;\");\n}"
+  }
+]

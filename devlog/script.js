@@ -69,4 +69,26 @@ function load_all_cards(data) {
   devlog.innerHTML = data.map(render_card).join("");
 }
 
-load_all_cards(tmp_entries);
+const url =
+  "https://github.com/MotchHmmF/MotchHmmFSite/tree/main/devlog/logs/log.json";
+
+async function get_logs() {
+  try {
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      throw new Error(`HTTP Error. Response ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    load_all_cards(data);
+  } catch (error) {
+    console.error("Failed to fetch json", error);
+    document.getElementById("devlog").innerHTML =
+      `<p> an Error occured ${escapeHtml(error)} </p>`;
+  }
+}
+
+get_logs();
+// load_all_cards(tmp_entries);
