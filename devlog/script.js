@@ -70,7 +70,7 @@ function load_all_cards(data) {
 }
 
 const url =
-  "https://github.com/MotchHmmF/MotchHmmFSite/tree/main/devlog/logs/log.json";
+  "https://github.com/MotchHmmF/MotchHmmFSite/blob/main/devlog/logs/log.json";
 
 async function get_logs() {
   try {
