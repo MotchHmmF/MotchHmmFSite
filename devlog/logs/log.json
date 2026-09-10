@@ -1,5 +1,11 @@
 [
   {
+    "title": "Loading from seperate file",
+    "date": "10/9/2026",
+    "description": "I have got the website loading data from a seperate json file now, this will allow me to relocate it later to something such as an S3 bucket or similar.",
+    "code": "async function get_logs() {\n  try {\n     const response = await fetch(url);"
+  },
+  {
     "title": "Devlog Foundations made",
     "date": "10/9/2026",
     "description": "Currently just hard-coding the devlogs into the script file but plan to be able to load from external files shortly. This works well for temporary demo purposes",
